@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling Effect</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        /* Full-screen Parallax Image */
+        .parallax {
+            height: 100vh; /* Full screen */
+            background-image: url('https://wallup.net/wp-content/uploads/2019/09/529623-shore-waves-horizon-sea-sand-beach-ocean-tropical-748x468.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* White Page with Text */
+        .content {
+            height: 100vh; /* Full screen */
+            background-color: white;
+            padding:50px;
+            font-size: 20px;
+            text-align:left; 
+            line-height:1.6;
+        }
+
+            .content h1{
+                 font-size:36px;
+                 font-weight:bold;
+                }
+    </style>
+</head>
+<body>
+
+    <div class="parallax"></div>  <!-- First Page: Parallax Image -->
+    <div class="content">
+        <h1>Welcome To Our Website</h1>
+        <p>This is the second page with a white background.</p>
+                <p>This is the second page with a white background.</p>
+                         <p>This is the second page with a white background.</p>
+                         <p>This is the second page with a white background.</p>
+                        <p>This is the second page with a white background.</p>
+                            <p>This is the second page with a white background.</p>
+                              <p>This is the second page with a white background.</p>
+    </div>  
+
+</body>
+</html>
